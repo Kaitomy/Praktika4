@@ -1,16 +1,27 @@
-# pw
+*ПРАКТИЧЕСКАЯ РАБОТА №4*
 
-A new Flutter project.
+Тема: Cubit».
 
-## Getting Started
+Цель: Реализовать счетчик при нажатии на кнопку + осуществляет увеличение счетчика, при нажатии на кнопку - осуществляться уменьшение счетчика. Если текущая тема устройства светлая то за одно нажатие должно +1 или -1.Если текущая тема устройства темная то за одно нажатие должно  +2 или -2.
 
-This project is a starting point for a Flutter application.
+Ход работы:
 
-A few resources to get you started if this is your first Flutter project:
+Для начала необходимо создать Cubit, который будет отвечать за смену счетчика на основном экране приложения.
+ 
+![image](https://user-images.githubusercontent.com/99449281/206563794-566b46e7-0830-41f0-b664-e40d9e2cbd70.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Далее необходимо создать основной экран, а также смену темы с белой на черную. Это осуществляется с помощью кнопки «Тема».
+ 
+![image](https://user-images.githubusercontent.com/99449281/206563887-1f2e2dc3-1882-4f73-8821-1005049bf449.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Основное взаимодействие перемены чисел осуществляется через ранее созданный Cubit. Также, для того,чтобы кнопки были закругленными был использован CircleBorder.
+ 
+![image](https://user-images.githubusercontent.com/99449281/206563917-5df1bd1d-874f-4b10-8de6-c396147bf80f.png)
+
+Итог:
+ 
+![image](https://user-images.githubusercontent.com/99449281/206563961-8d716a08-3f3c-4899-8377-7e60d4c09db1.png)
+
+![image](https://user-images.githubusercontent.com/99449281/206563990-34f4d71c-a379-4c28-8c03-02c61544ae41.png)
+
+Вывод: В результате выполнения практической работы 4, был реализован счетчик при нажатии на кнопку + осуществляет увеличение счетчика, при нажатии на кнопку - осуществляться уменьшение счетчика. Цифры, которые минусуются или плюсуются зависят от темы, включенной в приложении.
